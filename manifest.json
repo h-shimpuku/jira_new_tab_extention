@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Jira Extension",
+  "description": "リンクが別タブで開くよ",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://comicfesta.atlassian.net/jira/software/projects/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
